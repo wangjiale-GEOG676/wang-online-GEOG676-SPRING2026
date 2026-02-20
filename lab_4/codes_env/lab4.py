@@ -70,3 +70,9 @@ arcpy.TableToTable_conversion(
 )
 
 print("Done. Output:", folder_path + '\\nearbyBuildings.csv')
+import arcpy
+gdb_path = r'D:\博士资料\26 spring\GEOG675\wang-online-GEOG676-SPRING2026\lab_4\Test.gdb'
+arcpy.env.workspace = gdb_path
+print("FeatureClasses:", arcpy.ListFeatureClasses())
+
+
