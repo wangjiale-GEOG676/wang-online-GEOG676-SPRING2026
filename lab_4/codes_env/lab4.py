@@ -11,10 +11,10 @@ folder_path = r'D:\博士资料\26 spring\GEOG675\wang-online-GEOG676-SPRING2026
 gdb_name = 'Test.gdb'
 gdb_path = folder_path + '\\' + gdb_name
 
-# 创建 GDB
+# create GDB
 arcpy.CreateFileGDB_management(folder_path, gdb_name)
 
-# 输入 CSV
+# input CSV
 csv_path = r'D:\博士资料\26 spring\GEOG675\wang-online-GEOG676-SPRING2026\lab_4\data\04\garages.csv'
 garage_layer_name = 'Garage_Points'
 
